@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Usuario
+ * @author Alberto Gálvez
  */
 public class Main {
 
@@ -22,19 +22,36 @@ public class Main {
     public static void main(String[] args) {
 
         BufferedReader in = null;
-        Scanner sc;
-        double suma = 0, num;
-        String linea, nombre = "";
+        double sumaEdad = 0, edad, sumaAltura = 0, altura;
+        int cont = 0;
+        String linea = "", nombre = "";
 
         try {
             in = new BufferedReader(new FileReader("Jugadores.txt"));
             linea = in.readLine();
 
             while (linea != null) {
-                sc = new Scanner(linea).useLocale(Locale.US);
-                nombre += linea + "\n";
+                Scanner sc = new Scanner(linea).useLocale(Locale.US);
+                
+                nombre = sc.next(); // Realizamos la lectura del nombre (String) de los jugadores
+
+                if (sc.hasNextInt()) { //Detectamos Int para edades
+                    edad = sc.nextInt();
+                    sumaEdad += edad;
+                }
+
+                if (sc.hasNextDouble()) { //Detectamos Double para altura
+                    altura = sc.nextDouble();
+                    sumaAltura += altura;
+                }
+                
+                cont++;
+                System.out.println(nombre);
                 linea = in.readLine();
             }
+            
+            System.out.println(sumaEdad / cont);
+            System.out.println(sumaAltura / cont);
 
         } catch (IOException ex) {
             System.out.println(ex.getMessage());
@@ -48,8 +65,6 @@ public class Main {
                 }
             }
         }
-
-        System.out.println(nombre);
 
     }
 
