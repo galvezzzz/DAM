@@ -1,45 +1,28 @@
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         String nombre;
-        int edad;
-        FileWriter fw;
-        PrintWriter pw;
+        String edad;
 
-        System.out.println("Introduce tu nombre: ");
+        System.out.print("Introduce tu nombre: ");
         nombre = sc.nextLine();
+
+        System.out.print("Introduce tu edad: ");
+        edad = sc.nextLine();
 
         sc.nextLine();
 
-        System.out.println("Introduce tu edad: ");
-        edad = sc.nextInt();
-
-        try{
-            File datos = new File("datos.txt");
-
-            if (!datos.exists()){
-                datos.createNewFile();
-                System.out.println("Se ha creado el archivo: " + datos.getName());
-            }
-
-            fw = new FileWriter(datos);
-
-            fw.write("Edad" + edad);
-            fw.write("\nNombre: " + nombre);
+        try(BufferedWriter out = new BufferedWriter(new FileWriter("datos.txt"))){
+            out.write(nombre);
+            out.write(" ");
+            out.write(edad);
+            out.newLine();
 
         }catch (IOException ex){
-
-        }finally{
-
+            System.out.println(ex.getMessage());
         }
-
-
-
     }
 }
