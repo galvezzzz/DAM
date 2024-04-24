@@ -13,9 +13,7 @@ public class Main {
         System.out.print("Introduce tu edad: ");
         edad = sc.nextLine();
 
-        sc.nextLine();
-
-        try(BufferedWriter out = new BufferedWriter(new FileWriter("datos.txt"))){
+        try(BufferedWriter out = new BufferedWriter(new FileWriter("datos.txt", true))){
             out.write(nombre);
             out.write(" ");
             out.write(edad);
