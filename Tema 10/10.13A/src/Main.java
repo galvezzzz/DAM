@@ -2,14 +2,16 @@
 import java.io.*;
 import java.util.Arrays;
 import java.util.Scanner;
+
 /**
- * 
+ *
  * @author Alberto Gálvez
  */
 public class Main {
+
     /**
-     * 
-     * @param args 
+     *
+     * @param args
      */
     public static void main(String[] args) {
 
@@ -18,7 +20,9 @@ public class Main {
         int[] lista = new int[0];
         int cont = 0;
 
-        try (BufferedReader in = new BufferedReader(new FileReader("numeros1.txt")); BufferedReader in2 = new BufferedReader(new FileReader("numeros2.txt")); BufferedWriter out = new BufferedWriter(new FileWriter("numeros3.txt")); BufferedReader in3 = new BufferedReader(new FileReader("numeros3.txt"))) {
+        try (BufferedReader in = new BufferedReader(new FileReader("numeros1.txt")); 
+                BufferedReader in2 = new BufferedReader(new FileReader("numeros2.txt")); 
+                BufferedWriter out = new BufferedWriter(new FileWriter("numeros3.txt"))){
 
             // Leemos y almacenamos el primer archivo de números
             linea = in.readLine();
@@ -35,9 +39,8 @@ public class Main {
 
                 linea = in.readLine();
             }
-            
+
             // Leemos y almacenamos el segundo archivo de números
-            cont = 0;
             linea = in2.readLine();
 
             while (linea != null) {
