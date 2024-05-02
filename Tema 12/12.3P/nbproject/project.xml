@@ -2,9 +2,10 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
-            <name>12.3</name>
+            <name>12.3P</name>
             <source-roots>
                 <root id="src.src.dir" name="src"/>
+                <root id="src.src2.dir" name="src"/>
             </source-roots>
             <test-roots/>
         </data>
