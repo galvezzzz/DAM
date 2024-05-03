@@ -1,12 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package pkg12.pkg3;
 
 /**
  *
- * @author Usuario
+ * @author Alberto
  */
 public class Main {
 
@@ -15,7 +11,15 @@ public class Main {
      */
     public static void main(String[] args) {
         
+        Contenedor<Integer> c = new Contenedor<>(new Integer[0]);
         
+        c.apilar(1);
+        c.apilar(2);
+        c.apilar(3);
+        
+        c.desapilar();
+        
+        System.out.println(c);
     }
     
 }

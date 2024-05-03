@@ -6,7 +6,8 @@ package pkg12.pkg2;
 
 /**
  *
- * @author Usuario
+ * @author Alberto
+ * @since 03/05/24
  */
 public class Main {
 
