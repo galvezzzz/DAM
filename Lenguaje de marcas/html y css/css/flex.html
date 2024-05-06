@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .cabecera{
+            padding: 5px;
+            color: blanchedalmond;
+            background-color: black;
+            text-align: right;
+        }
+        .div1{
+            display: flex;
+            flex-direction: column;
+            border: black solid 6px;
+            margin: 15px;
+        }
+        article{
+            text-align: center;
+            padding: 15px;
+            background-color: darkkhaki;
+            
+        }
+        .section1{
+            display: flex;
+            flex-direction: row;
+        }
+        .articulouno{
+            background-color: rgb(248, 181, 94);
+            width: 33%;
+        }
+        .articulodos{
+            background-color: rgb(245, 165, 112);
+            width: 33%;
+        }
+        .articulotres{
+            width: 33%;
+        }
+        .articulo1{
+            background-color: rgb(49, 139, 218);
+            border-radius: 100px 10px / 120px;
+            margin: 15px;
+            border: black solid 3px;
+            width: 33%;
+        }
+        .articulo2{
+            background-color: rgb(36, 217, 230);
+            border-radius: 100px 10px / 120px;
+            margin: 15px;
+            border: black solid 3px;
+            width: 33%;
+        }
+        .articulo3{
+            background-color: rgb(130, 164, 194);
+            border-radius: 100px 10px / 120px;
+            margin: 15px;
+            border: black solid 3px;
+            width: 33%;
+        }
+        .section2{
+            display: flex;
+            flex-direction: row;
+            margin: 10px;   
+        }
+        .div2{
+            display: flex;
+            flex-direction: column;
+            border: black outset 6px;
+            padding: 10px;
+            justify-content: stretch;
+        }
+        .articulo4{
+            border-radius: 100px 10px / 120px;
+            border: black solid 3px;
+            align-items: stretch;
+            display: flex;
+            flex-direction: column;
+        }
+        .cabecera2{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: right;
+            color: rgb(64, 64, 190);
+        }
+        .container{
+            background-color: rgb(43, 40, 42);
+            border-radius: 100px 10px / 120px;
+            margin: 15px;
+            border: black solid 3px;
+            padding: 20px
+        }
+    </style>
+</head>
+<body>
+
+    <!--Estructura 1-->
+
+    <hr>
+    <div class="div1">
+        <div class="cabecera">
+            <h1>Viajes</h1>
+        </div>
+
+        <section class="section1">
+
+            <article class="articulouno">
+                <img src="./malaga.jpg" width="400px" height="250px"></img>
+                <h2>Málaga</h2>
+                <p>Hogar, arte y pasión</p>
+            </article>
+            
+            <article class="articulodos">
+                <img src="./mallorca.jpg" width="400px" height="250px"></img>
+                <h2>Mallorca</h2>
+                <p>Playas, fiesta y felicidad</p>
+            </article>
+
+            <article class="articulotres">
+                <img src="./asturias.jpg" width="400px" height="250px"></img>
+                <h2>Asturias</h2>
+                <p>Gastronomía, paisajes y frío</p>
+            </article>
+
+        </section>
+    </div>
+
+    <!--Estructura 2-->
+
+    <div class="div2">
+        <header class="cabecera2">
+            <h1>Mis aficiones</h1>
+        </header>
+
+        <section class="section2">
+            
+            <article class="articulo1">
+                <h2>Diseño web</h2>
+                <p>Aprendiendo diseño web</p>
+                <img src="./logohtml.png" alt="Logos HTML" width="150px" height="100px">
+            </article>
+
+            <article class="articulo2">
+                <h2>Montaña</h2>
+                <p>Aprendiendo diseño web</p>
+                <img src="./montaña.png" alt="Logos HTML" width="150px" height="100px">
+            </article>
+
+            <article class="articulo3">
+                <h2>Animales</h2>
+                <p>Aprendiendo diseño web</p>
+                <img src="./animal.png" alt="Logos HTML" width="150px" height="100px">
+            </article>
+
+        </section>
+        
+        <article class="articulo4">
+
+            <h4>Otras aficiones</h4>
+
+            <section class="container">
+                <p>Producir música</p>
+                <iframe width="250" height="150" src="https://www.youtube.com/embed/vhelQe7Nz8k?si=If6jfn77ZY3JY1mD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+
+        </article>
+    </div>
+</body>
+</html>

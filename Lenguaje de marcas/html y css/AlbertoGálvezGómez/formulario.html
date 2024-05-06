@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Formulario" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+</head>
+<body>
+    <ol>
+        <a href="./index.html"><li>Página principal</li></a>
+        <a href="./tabla.html"><li>Tabla</li></a>
+        <a href="./formulario.html"><li>Formulario</li></a>
+        <a href="./imagenes.html"><li>Imágenes</li></a>
+    </ol>
+
+    <!--Comenzamos el formulario con la etiqueta form y fieldset-->
+
+    <form>
+        <fieldset>
+            <legend>Rellenar</legend>
+
+            <!--Le damos nombre al botón radio para seleccionar solamente uno-->
+
+            <input type="radio" name="curso">ASIR
+            <input type="radio" name="curso">DAW
+            <input type="radio" name="curso">DAM
+
+            <br>
+
+            <textarea name="texto" id="" cols="30" rows="10">Inserte aquí el texto</textarea>
+
+            <br>
+
+            <select name="Año" multiple>
+                <option value="Primero">Primero</option>
+                <option value="Segundo">Segundo</option>
+                <option value="Máster">Máster</option>
+            </select>
+
+            <br>
+
+            Elija un fichero:<input type="file">
+
+            <br>
+
+            Elija un color:<input type="color">
+
+            <br>
+
+            <input type="checkbox">Wifi
+            <br>
+            <input type="checkbox">Cable
+            <br>
+            <input type="checkbox">Fibra
+
+            <br><br>
+
+            Instituto <input type="text">
+            <br>
+            Estudios elegidos <input type="text">
+
+            <br><br>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Complete, por favor</legend>
+            <textarea name="texto" id="" cols="30" rows="10">Utilice este recuadro por favor</textarea>
+
+            <br>
+
+            Nombre <input type="text">
+            Apellidos <input type="text">
+
+            <br>
+
+            <select>
+                <option>Java</option>
+                <option>Python</option>
+                <option>HTML</option>
+                <option>CSS</option>
+            </select>
+
+            <br>
+
+            <input type="radio" name="Asignatura">Programación
+            <br>
+            <input type="radio" name="Asignatura">BBDD
+            <br>
+            <input type="radio" name="Asignatura">Lenguaje de marcas
+
+            <br><br>
+
+            Elija una hora: <input type="time">
+
+            <br>
+
+            Elija una fecha: <input type="date">
+
+            <br>
+
+            <input type="checkbox">ASIR
+            <input type="checkbox">DAW
+            <input type="checkbox">DAM
+        </fieldset>
+    </form>
+</body>
+</html>

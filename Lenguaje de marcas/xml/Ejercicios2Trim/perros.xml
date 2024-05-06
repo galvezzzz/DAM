@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<perro>
+    <raza id="1">
+        <nombre>Perro de aguas español</nombre>
+        <abreviatura>PAE</abreviatura>
+        <origen>Andalucía</origen>
+        <tamanio>
+            <macho>44 a 50 cm</macho>
+            <hembra>40 a 46 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>19 a 22 kg</macho>
+            <hembra>14 a 19 kg</hembra>
+        </peso>
+        <tipo_pelo>Largo, rizado</tipo_pelo>
+        <esperanza_vida>12-14 anios</esperanza_vida>
+        <necesidades>Actividad física elevada</necesidades>
+    </raza>
+
+    <raza id="2">
+        <nombre>Pastor Alemán</nombre>
+        <abreviatura>PAE</abreviatura>
+        <origen>Andalucía</origen>
+        <tamanio>
+            <macho>64 cm</macho>
+            <hembra>58 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>34 - 43 kg</macho>
+            <hembra>34 - 43 kg</hembra>
+        </peso>
+        <tipo_pelo>Largo, rizado</tipo_pelo>
+        <esperanza_vida>10 - 12 anios</esperanza_vida>
+        <necesidades>Actividad física elevada</necesidades>
+    </raza>
+
+    <raza id="3">
+        <nombre>Galgo</nombre>
+        <necesidades>Actividad física alta</necesidades>
+        <origen>España</origen>
+        <tamanio>50-70cm</tamanio>
+        <peso>20-30kg</peso>
+        <tipo_pelo>Largo, rizado</tipo_pelo>
+        <esperanza_vida>12-14 anios</esperanza_vida>
+        <temperamento>Activo, sensible, tímido, dócil</temperamento>
+    </raza>
+</perro>

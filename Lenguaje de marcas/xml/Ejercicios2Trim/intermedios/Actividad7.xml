@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DAW>
+    <horas_semanales>4</horas_semanales>
+    <duracion>15 de septiembre de 2023 - 30 de junio de 2024</duracion>
+    <alumnos>
+        <alumno id="1">
+            <nombre>Ana Fernández Gutiérrez</nombre>
+            <nif>16965696L</nif>
+            <telefono>789654321</telefono>
+            <correo>ana.fdezgtrrez@hotmail.com</correo>
+            <direccion>C/ El Percebe, 13 de Santander CP 39302</direccion>
+            <info>No hay información sobre las faltas de asistencia o sus notas hasta el momento</info>
+        </alumno>
+
+        <alumno id="2">
+            <nombre>Pepito Grillo</nombre>
+            <nif>98765432H</nif>
+            <telefono>656566555</telefono>
+            <correo>email yhyh@yahoo.com</correo>
+            <direccion>Avd. El Pez, 5 de Suances CP 39401</direccion>
+            <info>Su nota es "apto" y no tiene faltas de asistencia</info>
+        </alumno>
+    </alumnos>
+</DAW>

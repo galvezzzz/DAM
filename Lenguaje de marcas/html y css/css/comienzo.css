@@ -1,0 +1,11 @@
+h1 {
+    text-transform:uppercase ;
+}
+p {
+    font-size: 1.5;
+    color: #888888;
+}
+.ciudad {
+    font-size: italic;
+    font-weight: bolder;
+}

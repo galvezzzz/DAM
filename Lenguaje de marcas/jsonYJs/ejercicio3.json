@@ -1,0 +1,47 @@
+{
+    "apellidos_nombre_viajero": "Antonio Gálvez",
+    "datos_contacto": {
+        "correo_electronico": "volandovoy@gmail.com",
+        "telefono": 284854939
+    },
+    "ciudad_origen": "Jaén",
+    "acompaniantes": [
+        "Jesús",
+        "Raquel",
+        "María"
+    ],
+    "gasto_total": 1220,
+    "relacion_destinos": [
+        {
+            "satisfecho": true,
+            "ciudad": "Roma",
+            "hotel": {
+                "nombre": "Jose María",
+                "estrellas": 2,
+                
+                "precio_noche": 5,
+                "numero_noches": 2
+            }
+        },
+        {
+            "satisfecho": false,
+            "ciudad": "Cai",
+            "hotel": {
+                "nombre": "Olmo",
+                "estrellas": 2,
+                "precio_noche": 5,
+                "numero_noches": 2
+            }
+        },
+        {
+            "satisfecho": true,
+            "ciudad": "Elche",
+            "hotel": {
+                "nombre": "Trivago",
+                "estrellas": 2,
+                "precio_noche": 5,
+                "numero_noches": 2
+            }
+        }
+    ]
+}

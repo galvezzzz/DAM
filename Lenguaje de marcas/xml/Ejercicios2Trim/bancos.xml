@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root xmlns:dinero="http://messi/" xmlns:sentado="https://cristiano/">
+
+<bancos>
+    <dinero:banco>
+        <dinero:nombre>Banco Urbano</dinero:nombre>
+        <dinero:identificador>ES32</dinero:identificador>
+        <dinero:cantidad>10000</dinero:cantidad>
+    </dinero:banco>
+
+    <sentado:banco>
+        <sentado:modelo>NLK82</sentado:modelo>
+        <sentado:capacidad>3</sentado:capacidad>
+        <sentado:medidas>
+            <sentado:ancho>123</sentado:ancho>
+            <sentado:alto>90</sentado:alto>
+        </sentado:medidas>
+    </sentado:banco>
+
+    <sentado:banco>
+        <sentado:modelo>NLK81</sentado:modelo>
+        <sentado:capacidad>2</sentado:capacidad>
+        <sentado:medidas>
+            <sentado:ancho>100</sentado:ancho>
+            <sentado:alto>90</sentado:alto>
+        </sentado:medidas>
+    </sentado:banco>
+
+    <dinero:banco>
+        <dinero:nombre>Banco Predem</dinero:nombre>
+        <dinero:identificador>ES33</dinero:identificador>
+        <dinero:cantidad>10020</dinero:cantidad>
+    </dinero:banco>
+
+    <dinero:banco>
+        <dinero:nombre>Banco ESP</dinero:nombre>
+        <dinero:identificador>ES34</dinero:identificador>
+        <dinero:cantidad>230000</dinero:cantidad>
+    </dinero:banco>
+
+    <dinero:banco>
+        <dinero:nombre>Banco Bank</dinero:nombre>
+        <dinero:identificador>ES56</dinero:identificador>
+        <dinero:cantidad>10555</dinero:cantidad>
+    </dinero:banco>
+
+    <sentado:banco>
+        <sentado:modelo>NLK78</sentado:modelo>
+        <sentado:capacidad>1</sentado:capacidad>
+        <sentado:medidas>
+            <sentado:ancho>60</sentado:ancho>
+            <sentado:alto>90</sentado:alto>
+        </sentado:medidas>
+    </sentado:banco>
+
+    <dinero:banco>
+        <dinero:nombre>Banco Trechted</dinero:nombre>
+        <dinero:identificador>ES211</dinero:identificador>
+        <dinero:cantidad>10000000</dinero:cantidad>
+    </dinero:banco>
+
+    <dinero:banco>
+        <dinero:nombre>Banco Bench</dinero:nombre>
+        <dinero:identificador>ES46</dinero:identificador>
+        <dinero:cantidad>110000</dinero:cantidad>
+    </dinero:banco>
+
+    <sentado:banco>
+        <sentado:modelo>NLK88</sentado:modelo>
+        <sentado:capacidad>4</sentado:capacidad>
+        <sentado:medidas>
+            <sentado:ancho>156</sentado:ancho>
+            <sentado:alto>95</sentado:alto>
+        </sentado:medidas>
+    </sentado:banco>
+</bancos>
+</root>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1JS</title>
+    <script>
+        function iniciar() {
+            num1 = Number(prompt("Introduce el primer número: "));
+            num2 = Number(prompt("Introduce el segundo número: "));
+        }
+        function operacion() {
+            var opcion = Number(prompt("Introduce una opción del menú: "));
+            var r = document.getElementById("r");
+
+            switch (opcion) {
+                case 1:
+                    r.innerHTML = num1 + num2;
+                    break;
+                case 2:
+                    r.innerHTML = num1 - num2;
+                    break;
+                case 3:
+                    r.innerHTML = num1 * num2;
+                    break;
+                case 4:
+                    r.innerHTML = num1 / num2;
+                    break;
+                case 5:
+                    r.innerHTML = num1 % num2;
+                    break;
+                case 6:
+                    alert("Has salido");
+                    break;
+            }
+        }
+    </script>
+</head>
+
+<body onload="iniciar()">
+    <h1>Calculadora</h1>
+    <ul>
+        <li>Pulse 1 para sumar</li>
+        <li>Pulse 2 para restar</li>
+        <li>Pulse 3 para multiplicar</li>
+        <li>Pulse 4 para dividir</li>
+        <li>Pulse 5 para obtener el módulo</li>
+        <li>Pulse 6 para salir</li>
+    </ul>
+
+    <input type="button" value="Operacion" onclick="operacion()" />
+
+    <p id="r"></p>
+
+</body>
+
+</html>

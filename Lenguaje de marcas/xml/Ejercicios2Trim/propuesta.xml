@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE especie [
+    <!ELEMENT especie (nombre, familia, distribucion)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT familia (#PCDATA)>
+    <!ELEMENT distribucion (#PCDATA)>
+    <!ELEMENT distribucion (zona+)>
+    <!ELEMENT zona (#PCDATA)>
+
+    <!ATTLIST especie estado(extinto | sin-peligro | amenazado) "amenazado">
+    <!ATTLIST nombre nombre_científico CDATA #REQUIRED>
+]>
+
+<especie estado="extinto">
+    <nombre nombre_científico="Thylacinus cynocephalus">Tigre de Tasmania</nombre>
+    <familia>Thylacinidae</familia>
+    <distribucion>
+        <zona>Australia occidental</zona>
+        <zona>Nueva Guinea</zona>
+        <zona>Isla de Tasmania</zona>
+    </distribucion>
+</especie>

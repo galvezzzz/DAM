@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<restaurante>
+    <carta>
+        <entremeses>
+            <plato id="1">
+                <nombre>Aceitunas</nombre>
+                <precio>1€</precio>
+            </plato>
+
+            <plato id="2">
+                <nombre>Gambas al pil pil</nombre>
+                <precio>10€</precio>
+            </plato>
+        </entremeses>
+
+        <plato_principal>
+            <plato id="3">
+                <nombre>Rosada</nombre>
+                <precio>12€</precio>
+            </plato>
+
+            <plato id="4">
+                <nombre>Solomillo</nombre>
+                <precio>14€</precio>
+            </plato>
+        </plato_principal>
+
+        <postres>
+            <plato id="5">
+                <nombre>Arroz con leche</nombre>
+                <precio>5€</precio>
+            </plato>
+
+            <plato id="6">
+                <nombre>Natillas</nombre>
+                <precio>5€</precio>
+            </plato>
+        </postres>
+    </carta>
+</restaurante>

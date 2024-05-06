@@ -1,0 +1,19 @@
+{
+    "numero_estudiantes": {
+        "primaria": 12,
+        "secundaria": 23,
+        "fp": {
+            "fpb": 2,
+            "cfgm": 22,
+            "cfgs": 12
+        },
+        "bachillerato": 30
+    },
+    "nombre_colegio": "IES Belén",
+    "ciudad": {
+        "nombre": "Málaga",
+        "provincia": "Andalucía",
+        "codigo_postal": "29004",
+        "distancia_capital": "120"
+    }
+}

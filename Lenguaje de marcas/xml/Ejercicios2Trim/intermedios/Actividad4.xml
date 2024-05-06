@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<baraja>
+
+    <carta id="1">
+        <palo>Pica</palo>
+        <numero>5</numero>
+    </carta>
+
+    <carta id="2">
+        <palo>Corazón</palo>
+        <numero>12</numero>
+    </carta>
+
+    <carta id="3">
+        <palo>Diamante</palo>
+        <numero>8</numero>
+    </carta>
+
+</baraja>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version ="2.0">
+    <channel>
+        <title>Mejores jugadores</title>
+
+        <link>
+            <a href="https://www.luckia.es/blog/mejores-futbolistas-de-la-historia/">Mejores jugadores de la historia del fútbol</a>
+        </link>
+
+        <description>
+        Aquí se muestran a los diez mejores jugadores de la historia del fútbol
+        </description>
+
+        <item>
+            <title>Lionel Messi</title>
+            <link>
+                <a href="https://www.transfermarkt.es/lionel-messi/profil/spieler/28003">Lionel Messi</a>
+            </link>
+            <description>
+                <p>En este enlace se muestra información extra sobre el jugador de fútbol Lionel Messi</p>
+            </description>
+        </item>
+
+        <item>
+            <title>Diego Maradona</title>
+            <link>
+                <a href="https://www.transfermarkt.es/diego-maradona/profil/spieler/8024">Diego Maradona</a>
+            </link>
+            <description>
+                <p>En este enlace se muestra información extra sobre el jugador de fútbol Diego Maradona</p>
+            </description>
+        </item>
+    </channel>
+</rss>

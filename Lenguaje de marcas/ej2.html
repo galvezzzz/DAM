@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+
+</head>
+
+<body>
+    <h1>Factorial</h1>
+    <div id="resultado"></div>
+    <script>
+        var num1 = r = Number(prompt("Introduce el primer número: "));
+
+        if (isNaN(num1)) {
+            alert("No es un número");
+            document.getElementById('resultado').innerHTML = "cHUSMa"
+
+        } else {
+            while (num1 > 1) {
+                r = r * (num1 - 1);
+                num1--;
+
+            }
+            document.getElementById('resultado').innerHTML = "El factorial es " + r;
+        }
+    </script>
+    
+</body>
+
+</html>

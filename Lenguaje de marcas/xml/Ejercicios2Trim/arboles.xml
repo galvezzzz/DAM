@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tipos_arbol>
+    <arbol id="1">
+        <nombre>Litchi</nombre>
+        <variedad>Kway may pink</variedad>
+        <origen>Filipinas</origen>
+        <color_del_fruto>Rosa</color_del_fruto>
+        <maduracion>Agosto</maduracion>
+        <riego>Diario</riego>
+        <precio_kg>3,5€</precio_kg>
+    </arbol>
+
+    <arbol id="2">
+        <nombre>Logan</nombre>
+        <variedad>Champoo</variedad>
+        <origen>China</origen>
+        <color_del_fruto>Marron</color_del_fruto>
+        <maduracion>Octubre</maduracion>
+        <riego>Diario</riego>
+        <precio_kg>2,5€</precio_kg>
+    </arbol>
+
+    <arbol id="3">
+        <nombre>Litchi</nombre>
+        <variedad>Mauritius</variedad>
+        <origen>Florida</origen>
+        <color_del_fruto>Rojo</color_del_fruto>
+        <maduracion>Agosto</maduracion>
+        <riego>Diario</riego>
+        <precio_kg>3€</precio_kg>
+    </arbol>
+</tipos_arbol>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="inventario">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="objeto">
+                    <xs:complexType>
+                        <xs:choice>
+                            <xs:element name="mesa" type="tipoMesa"/>
+                            <xs:element name="ordenador" type="tipoOrdenador"/>
+                        </xs:choice>
+                        <xs:attribute name="codigo" type="cod"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="tipoMesa">
+        <xs:sequence>
+            <xs:element name="tipo"/>
+            <xs:element name="localizacion" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoOrdenador">
+        <xs:all>
+            <xs:element name="procesador" type="tprocesador"/>
+            <xs:element name="memoria" type="tunidad"/>
+            <xs:element name="discoduro" type="xs:string"/>
+        </xs:all>
+    </xs:complexType>
+
+
+    <xs:complexType name="tprocesador">
+        <xs:attribute name="fabricante" type="xs:string" use="optional"/>
+    </xs:complexType>    
+
+    <xs:complexType name="tunidad">
+        <xs:attribute name="unidad" use="required"/>
+    </xs:complexType>    
+
+    <xs:simpleType name="cod">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z]{4}[0-9]{2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

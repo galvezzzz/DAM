@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persona>
+    <nombre>Ángela Castro Álvarez</nombre>
+    <sexo>Mujer</sexo>
+    <fecha_nac>
+        <dia>3</dia>
+        <mes>3</mes>
+        <año>1933</año>
+    </fecha_nac>
+    <ciudad>Málaga</ciudad>
+</persona>
