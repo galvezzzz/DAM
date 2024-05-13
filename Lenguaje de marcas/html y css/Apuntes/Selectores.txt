@@ -1,6 +1,0 @@
-
-body first child (abajo)
-#id
-.class
-> coge del mismo nivel (tabulación)
-“espacio” coge todos los de abajo
